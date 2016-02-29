@@ -36,19 +36,22 @@ iframe {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
-::selection {
-    background: #AAF2E4; /* Safari */
+
+/* text mouse highlight color */
+/* ::selection {
+    background: #AAF2E4;
     color: #506A85;
 }
 ::-moz-selection {
-    background: #AAF2E4; /* Firefox */
+    background: #AAF2E4;
     color: #506A85;
-}
+} */
+
 html:not(.no-csstransitions) main [class*="col-"] {
     opacity: 0; /* Hide content for animations on scroll in scripts.js */
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #283645;
     color: #73879C;
     font-size: 18px;
@@ -88,7 +91,7 @@ a {
 }
 a:hover,
 a:focus {
-    color: #1ABB9C;
+    color: #337ab7;
     text-decoration: none;
 }
 h1,
@@ -97,7 +100,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #506A85;
@@ -182,10 +185,10 @@ ol li {
     margin-bottom: 5px;
 }
 ul.arrowed li:before {
-    font-family: 'fontello';
+    font-family: 'Open Sans', sans-serif;
     font-size: 75%;
     font-weight: normal;
-    color: #1ABB9C;
+    color: #337ab7;
     vertical-align: baseline;
     content: '\e846';
     margin-top: 1px;
@@ -193,11 +196,11 @@ ul.arrowed li:before {
     position: absolute;
 }
 ul.circled li:before {
-    font-family: 'fontello-circle';
+    font-family: 'Open Sans', sans-serif;
     content: '\e800';
     font-size: 8px;
     font-weight: normal;
-    color: #1ABB9C;
+    color: #337ab7;
     padding-top: 1px;
     margin-left: -20px;
     vertical-align: top;
@@ -567,7 +570,7 @@ figure.post-media + * {
 .member figcaption h2 span,
 .member figcaption h3 span {
     display: block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 0.015em;
 }
@@ -1042,7 +1045,7 @@ footer p {
 }
 .bordered .info h3 a:hover,
 .bordered .info h4 a:hover {
-    color: #1ABB9C;
+    color: #337ab7;
 }
 .bordered .info p {
     font-size: 14px;
@@ -1379,12 +1382,13 @@ aside .thumb figure {
 .navbar-nav > li > a {
     font-size: 15px;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     color: #506A85;
     padding: 15px 20px;
     border: 1px solid rgba(255,255,255,0);
-    border-radius: 3px;
+    border-radius: 2px;
     bottom: -1px;
     z-index: 1;
 }
@@ -1407,7 +1411,7 @@ aside .thumb figure {
 .nav > li > a:hover {
     background-color: #F5F7FA;
     border-color: #E6E9ED;
-    color: #1ABB9C;
+    color: #337ab7;
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -1490,7 +1494,7 @@ aside .thumb figure {
     color: #73879C;
 }
 .navbar-header .info a:hover {
-    color: #1ABB9C;
+    color: #337ab7;
 }
 .navbar-form {
     padding: 0;
@@ -1598,11 +1602,11 @@ aside .thumb figure {
     margin: 30px 0;
 }
 .btn {
-    color: #FFF !important;
-    background: #1ABB9C;
+    color: #FFF; /* !important; */
+    background: #506A85;
     padding: 11px 20px 13px;
     margin: 15px 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -1655,8 +1659,8 @@ aside .thumb figure {
 .btn:focus,
 .btn:active,
 .btn.active {
-    background: #17A78B;
-    color: #FFF !important;
+    background: #95A5A6;
+    color: #FFF; /* !important; */
     -webkit-transition: all 200ms ease-out;
     -o-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
@@ -1834,7 +1838,7 @@ aside .thumb figure {
 .btn-share-xs p {
     position: absolute;
     height: 1.1em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 100%;
     color: #FFF;
     margin: auto;
@@ -1891,7 +1895,7 @@ p .btn {
     font-weight: 700;
 }
 .txt-btn:after {
-    font-family: 'fontello';
+    font-family: 'Open Sans', sans-serif;
     font-size: 75%;
     content: '\e846';
     margin-left: 7px;
@@ -1914,7 +1918,7 @@ p .btn {
     margin: 0;
 }
 .social li {
-    font-family: 'fontello-social';
+    font-family: 'Open Sans', sans-serif;
     margin-right: 4px;
 }
 .social li {
@@ -1954,7 +1958,7 @@ p .btn {
     transition: all 200ms ease-out;
 }
 .social li a:hover i {
-    color: #FFF;
+    color: #337ab7;
 }
 .social li a:hover i:after {
     height: 100%;
@@ -2043,7 +2047,7 @@ p .btn {
     border-top-color: #1ABB9C;
 }
 .tabs-side .tab a div {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     line-height: 100%;
     font-weight: 200;
@@ -2102,7 +2106,7 @@ p .btn {
     overflow: hidden;
 }
 .tabs-top .tab a div {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     line-height: 100%;
     font-weight: 200;
@@ -2175,7 +2179,7 @@ p .btn {
     overflow: hidden;
 }
 .tabs-circle-top .tab a div {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     line-height: 100%;
     font-weight: 200;
@@ -2332,7 +2336,7 @@ blockquote {
 blockquote:before {
     display: block;
     position: relative;
-    font-family: 'fontello';
+    font-family: 'Open Sans', sans-serif;
     content: '\275e';
     font-size: 40px;
     line-height: 100%;
@@ -2405,7 +2409,7 @@ blockquote:before {
     border-color: inherit !important;
 }
 .panel-title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 1.42857;
     font-weight: 700;
@@ -2456,7 +2460,7 @@ blockquote:before {
     color: transparent;
 }
 .panel-title > a span:after {
-    font-family: "fontello";
+    font-family: 'Open Sans', sans-serif;
     content: "\e849";
     position: absolute;
     top: 0;
@@ -2710,7 +2714,7 @@ blockquote:before {
     vertical-align: middle;
     width: 100%;
     height: auto;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 22px;
     /*color: #FFF;*/
@@ -2887,7 +2891,7 @@ blockquote:before {
     opacity: 1;
 }
 .icon-overlay a .icn-more:before {
-    font-family: 'fontello';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     speak: none;
@@ -2936,7 +2940,7 @@ blockquote:before {
 }
 .item-details li:before {
     content: "";
-    font-family: "fontello";
+    font-family: 'Open Sans', sans-serif;
     color: #506A85;
     margin-right: 10px;
 }
@@ -3418,7 +3422,7 @@ blockquote:before {
     margin-bottom: 15px;
 }
 .pricing .plan .price * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 100%;
 }
 .pricing .plan .price .amount {
@@ -3750,7 +3754,7 @@ input:focus:-ms-input-placeholder {
 .meta li.categories:before,
 .meta li a:before {
     content: "";
-    font-family: "fontello";
+    font-family: 'Open Sans', sans-serif;
     margin-right: 6px;
 }
 .meta li.categories a:before,
@@ -4043,7 +4047,7 @@ input:focus:-ms-input-placeholder {
 /*===================================================================================*/
 
 .author {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 160%;
@@ -4157,7 +4161,7 @@ input:focus:-ms-input-placeholder {
     position: absolute;
     right: 18px;
     content: "\e762";
-    font-family: 'fontello';
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     -webkit-transition: all 200ms ease-out;
     -moz-transition: all 200ms ease-out;
@@ -4218,7 +4222,7 @@ input:focus:-ms-input-placeholder {
     float: none;
     display: inline-block;
     color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #1ABB9C;
     padding: 11px 20px 13px;
     margin-left: 0;
@@ -4325,7 +4329,7 @@ input:focus:-ms-input-placeholder {
     float: left;
 }
 #comments .message .meta li.reply a:before {
-    font-family: 'fontello';
+    font-family: 'Open Sans', sans-serif;
     content: "\e712";
     margin-right: 6px;
 }
@@ -4361,7 +4365,7 @@ input:focus:-ms-input-placeholder {
     opacity: .5;
 }
 #scrollUp:hover {
-    color: #1ABB9C;
+    color: #FFF;
     opacity: 1;
 }
 
