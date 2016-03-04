@@ -45,15 +45,38 @@
     text-decoration: none;
 }
 
+.iframe-content {
+    height: 100vh;
+}
+
 .content-section {
     padding-top: 100px;
     height: 100vh;
+}
+
+.about-section {
+    padding-top: 100px;
+    height: 300vh;
 }
 
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
     }
+}
+
+@media(min-width:767px) {
+    .about-section-section {
+        height: 500vh;
+    }
+}
+
+.pad-top {
+    padding-top: 100px;
+}
+
+.pad-bot {
+    padding-bottom: 100px;
 }
 
 .btn-circle {
