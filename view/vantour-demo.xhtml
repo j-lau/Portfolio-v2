@@ -6,18 +6,101 @@
 
     <body class="scrollbar">
 
-    <navReplace metal:use-macro="./templating/nav.xhtml/nav_bar">
-    </navReplace>
+        <header id="nav" role="navigation">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <div class="container">
+
+                        <ul class="info pull-left">
+                            <li><a href="mailto:contact@jamilalau.com"><i class="icon-mail-1 contact"></i> contact@jamilalau.com</a></li>
+                            <li><i class="icon-mobile contact"></i> +1 (604) 837-1202</li>
+                        </ul><!-- /.info -->
+
+                        <ul class="social pull-right">
+                            <li><a href="https://www.linkedin.com/in/jamila-lau-968b14116"><i class="icon-s-linkedin text-overlay"></i></a></li>
+                            <li><a href="https://github.com/j-lau"><i class="icon-s-github text-overlay"></i></a></li>
+                        </ul><!-- /.social -->
+
+                        <!-- ============================================================= LOGO MOBILE ============================================================= -->
+
+                        <a class="navbar-brand logo-color" href="./index.php">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;&nbsp;.&nbsp;&nbsp;L&nbsp;A&nbsp;U</a>
+
+                        <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+
+                        <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+
+                    </div><!-- /.container -->
+                </div><!-- /.navbar-header -->
+
+                <div class="yamm">
+                    <div class="navbar-collapse collapse">
+                        <div class="container">
+
+                            <!-- ============================================================= LOGO ============================================================= -->
+
+                            <a class="navbar-brand logo-color" href="./index.php">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;&nbsp;.&nbsp;&nbsp;L&nbsp;A&nbsp;U</a>
+
+                            <!-- ============================================================= LOGO : END ============================================================= -->
 
 
-    <!-- ============================================================= MAIN ============================================================= -->
+                            <!-- ============================================================= MAIN NAVIGATION ============================================================= -->
 
-    <main class="iframe-content">
-        <iframe src="http://jamilalau.altervista.org/VanTour/vt-index.html" width="100%" height="100%"></iframe>
+                            <ul class="nav navbar-nav">
 
-    </main>
+                                <li class="">
+                                    <a href="./index.php" class="">Home</a>
+                                </li>
 
-    <!-- ============================================================= MAIN : END ============================================================= -->
+                                <li class="">
+                                    <a href="./portfolio.php" class="">Portfolio</a>
+                                </li>
+
+                                <li class="active">
+                                    <a href="./about.php" class="">About Me</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="./contact-page.php" class="">Contact</a>
+                                </li>
+
+                            </ul><!-- /.nav -->
+
+                            <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+
+                        </div><!-- /.container -->
+
+                        <!-- Breadcrumb -->
+                        <div class="container">
+                            <ol class="breadcrumb info-txt">
+                                <li>
+                                    <a href="./index.php">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="./portfolio.php">PORTFOLIO</a>
+                                </li>
+                                <li>
+                                    <a href="./vantour.php">VanTour</a>
+                                </li>
+                                <li class="active">
+                                    Demo
+                                </li>
+                            </ol>
+                        </div>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.yamm -->
+            </div><!-- /.navbar -->
+        </header>
+
+
+        <!-- ============================================================= MAIN ============================================================= -->
+
+        <main class="iframe-content">
+            <iframe src="http://jamilalau.altervista.org/VanTour/vt-index.html" width="100%" height="100%"></iframe>
+
+        </main>
+
+        <!-- ============================================================= MAIN : END ============================================================= -->
 
 
     <footerReplace metal:use-macro="./templating/footer.xhtml/page_footer">

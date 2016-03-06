@@ -79,15 +79,23 @@
     padding-bottom: 100px;
 }
 
+.pad-top-2 {
+    padding-top: 200px;
+}
+
+.pad-bot-2 {
+    padding-bottom: 200px;
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    padding: 7px 16px;
+    padding: 7px 14px;
     border: 1px solid rgba(255,255,255,0);
     border-radius: 100% !important;
     font-size: 40px;
-    color: #506A85;
+    color: #660000;/* #506A85; */
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -97,8 +105,8 @@
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #337ab7;
-    background-color: #F5F7FA;
+    color: #cc0000;
+    background-color: #f2f2f2;
     border-color: #E6E9ED;
 }
 
@@ -118,4 +126,37 @@
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+}
+
+.project_icons{
+    width: 50px;
+    height: auto;
+    margin-right: 2.5%;
+    padding: 10px 0px;
+}
+
+.desaturate{
+    -webkit-filter: grayscale(75%);
+}
+
+.project_icons:focus,
+.project_icons:hover{
+    -webkit-filter: grayscale(0%);
+}
+
+.breadcrumb{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: inherit;
+    color: #ccc;
+    padding: 0px;
+    list-style: none;
+    border-radius: 0px;
+}
+
+.background-img{
+    /* background-image: url(../images/port_bg.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

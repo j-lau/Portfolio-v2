@@ -6,132 +6,196 @@
 
     <body class="scrollbar">
 
-    <navReplace metal:use-macro="./templating/nav.xhtml/nav_bar">
-    </navReplace>
+        <header id="nav" role="navigation">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <div class="container">
+
+                        <ul class="info pull-left">
+                            <li><a href="mailto:contact@jamilalau.com"><i class="icon-mail-1 contact"></i> contact@jamilalau.com</a></li>
+                            <li><i class="icon-mobile contact"></i> +1 (604) 837-1202</li>
+                        </ul><!-- /.info -->
+
+                        <ul class="social pull-right">
+                            <li><a href="https://www.linkedin.com/in/jamila-lau-968b14116"><i class="icon-s-linkedin text-overlay"></i></a></li>
+                            <li><a href="https://github.com/j-lau"><i class="icon-s-github text-overlay"></i></a></li>
+                        </ul><!-- /.social -->
+
+                        <!-- ============================================================= LOGO MOBILE ============================================================= -->
+
+                        <a class="navbar-brand logo-color" href="./index.php">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;&nbsp;.&nbsp;&nbsp;L&nbsp;A&nbsp;U</a>
+
+                        <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+
+                        <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+
+                    </div><!-- /.container -->
+                </div><!-- /.navbar-header -->
+
+                <div class="yamm">
+                    <div class="navbar-collapse collapse">
+                        <div class="container">
+
+                            <!-- ============================================================= LOGO ============================================================= -->
+
+                            <a class="navbar-brand logo-color" href="./index.php">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;&nbsp;.&nbsp;&nbsp;L&nbsp;A&nbsp;U</a>
+
+                            <!-- ============================================================= LOGO : END ============================================================= -->
 
 
-    <!-- ============================================================= MAIN ============================================================= -->
+                            <!-- ============================================================= MAIN NAVIGATION ============================================================= -->
 
-    <main>
+                            <ul class="nav navbar-nav">
 
-        <section class="container about-section text-center">
-            <div class="intro-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-9 center-block text-center">
-                            <header>
-                                <h1 class="info-txt">PORTFOLIO</h1>
-                                <p class="info-txt">Some of the projects I've worked on.</p>
-                            </header>
-                        </div><!-- /.col -->
-                    </div><!-- /.row -->
+                                <li class="">
+                                    <a href="./index.php" class="">Home</a>
+                                </li>
 
-                    <div class="row inner">
-                        <div class="col-sm-12 portfolio center-block text-center">
+                                <li class="active">
+                                    <a href="./portfolio.php" class="">Portfolio</a>
+                                </li>
 
-                            <ul class="filter text-center">
-                                <li><a href="#" data-filter="*" class="active">All</a></li>
-                                <li><a href="#" data-filter=".design">Design</a></li>
-                                <li><a href="#" data-filter=".development">Development</a></li>
-                            </ul><!-- /.filter -->                            
+                                <li class="">
+                                    <a href="./about.php" class="">About Me</a>
+                                </li>
 
-                            <ul class="items col-3">
+                                <li class="">
+                                    <a href="./contact-page.php" class="">Contact</a>
+                                </li>
 
-                                <li class="item thumb design">
-                                    <a href="./purpleroom.php">
-                                        <figure>
-                                            <figcaption class="text-overlay">
-                                                <div class="info">
-                                                    <h4>PurpleRoom</h4>
-                                                    <p>Adobe Illustrator Project</p>
-                                                </div><!-- /.info -->
-                                            </figcaption>
-                                            <img src="assets/images/art/placeholder.jpg" alt="" />
-                                        </figure>
-                                    </a>
-                                </li><!-- /.item -->
+                            </ul><!-- /.nav -->
 
-                                <li class="item thumb design">
-                                    <a href="portfolio-post.html">
-                                        <figure>
-                                            <figcaption class="text-overlay">
-                                                <div class="info">
-                                                    <h4>project</h4>
-                                                    <p>project</p>
-                                                </div><!-- /.info -->
-                                            </figcaption>
-                                            <img src="assets/images/art/placeholder.jpg" alt="" />
-                                        </figure>
-                                    </a>
-                                </li><!-- /.item -->
+                            <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
 
-                                <li class="item thumb development">
-                                    <a href="./vantour.php">
-                                        <figure>
-                                            <figcaption class="text-overlay">
-                                                <div class="info">
-                                                    <h4>VanTour</h4>
-                                                    <p>Web Development Project</p>
-                                                </div><!-- /.info -->
-                                            </figcaption>
-                                            <img src="assets/images/art/placeholder.jpg" alt="" />
-                                        </figure>
-                                    </a>
-                                </li><!-- /.item -->
-                                <li class="item thumb development">
-                                    <a href="portfolio-post.html">
-                                        <figure>
-                                            <figcaption class="text-overlay">
-                                                <div class="info">
-                                                    <h4>project</h4>
-                                                    <p>project</p>
-                                                </div><!-- /.info -->
-                                            </figcaption>
-                                            <img src="assets/images/art/placeholder.jpg" alt="" />
-                                        </figure>
-                                    </a>
-                                </li><!-- /.item -->
+                        </div><!-- /.container -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.yamm -->
+            </div><!-- /.navbar -->
+        </header>
 
-                                <li class="item thumb development">
-                                    <a href="portfolio-post.html">
-                                        <figure>
-                                            <figcaption class="text-overlay">
-                                                <div class="info">
-                                                    <h4>project</h4>
-                                                    <p>project</p>
-                                                </div><!-- /.info -->
-                                            </figcaption>
-                                            <img src="assets/images/art/placeholder.jpg" alt="" />
-                                        </figure>
-                                    </a>
-                                </li><!-- /.item -->
 
-                                <li class="item thumb design">
-                                    <a href="portfolio-post.html">
-                                        <figure>
-                                            <figcaption class="text-overlay">
-                                                <div class="info">
-                                                    <h4>project</h4>
-                                                    <p>project</p>
-                                                </div><!-- /.info -->
-                                            </figcaption>
-                                            <img src="assets/images/art/placeholder.jpg" alt="" />
-                                        </figure>
-                                    </a>
-                                </li><!-- /.item -->
+        <!-- ============================================================= MAIN ============================================================= -->
 
-                            </ul><!-- /.items -->
+        <main>
 
-                        </div><!-- /.col -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
+            <section class="container text-center pad-bot pad-top">
+                <div class="intro-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-9 center-block text-center">
+                                <header>
+                                    <h1 class="info-txt">PORTFOLIO</h1>
+                                    <p class="info-txt">Some of the projects I've worked on.</p>
+                                </header>
+                            </div><!-- /.col -->
+                        </div><!-- /.row -->
 
-            </div>
-        </section>
+                        <div class="row inner">
+                            <div class="col-sm-12 portfolio center-block text-center">
 
-    </main>
+                                <ul class="filter text-center">
+                                    <li><a href="#" data-filter="*" class="active">All</a></li>
+                                    <li><a href="#" data-filter=".design">Design</a></li>
+                                    <li><a href="#" data-filter=".development">Development</a></li>
+                                </ul><!-- /.filter -->                            
 
-    <!-- ============================================================= MAIN : END ============================================================= -->
+                                <ul class="items col-3">
+
+                                    <li class="item thumb design">
+                                        <a href="./purpleroom.php">
+                                            <figure>
+                                                <figcaption class="text-overlay">
+                                                    <div class="info">
+                                                        <h4>PurpleRoom</h4>
+                                                        <p>Adobe Illustrator Project</p>
+                                                    </div><!-- /.info -->
+                                                </figcaption>
+                                                <img src="assets/images/art/placeholder.jpg" alt="" />
+                                            </figure>
+                                        </a>
+                                    </li><!-- /.item -->
+
+                                    <li class="item thumb design">
+                                        <a href="portfolio-post.html">
+                                            <figure>
+                                                <figcaption class="text-overlay">
+                                                    <div class="info">
+                                                        <h4>project</h4>
+                                                        <p>project</p>
+                                                    </div><!-- /.info -->
+                                                </figcaption>
+                                                <img src="assets/images/art/placeholder.jpg" alt="" />
+                                            </figure>
+                                        </a>
+                                    </li><!-- /.item -->
+
+                                    <li class="item thumb development">
+                                        <a href="./vantour.php">
+                                            <figure>
+                                                <figcaption class="text-overlay">
+                                                    <div class="info">
+                                                        <h4>VanTour</h4>
+                                                        <p>Web Development Project</p>
+                                                    </div><!-- /.info -->
+                                                </figcaption>
+                                                <img src="assets/images/art/placeholder.jpg" alt="" />
+                                            </figure>
+                                        </a>
+                                    </li><!-- /.item -->
+                                    <li class="item thumb development">
+                                        <a href="portfolio-post.html">
+                                            <figure>
+                                                <figcaption class="text-overlay">
+                                                    <div class="info">
+                                                        <h4>project</h4>
+                                                        <p>project</p>
+                                                    </div><!-- /.info -->
+                                                </figcaption>
+                                                <img src="assets/images/art/placeholder.jpg" alt="" />
+                                            </figure>
+                                        </a>
+                                    </li><!-- /.item -->
+
+                                    <li class="item thumb development">
+                                        <a href="portfolio-post.html">
+                                            <figure>
+                                                <figcaption class="text-overlay">
+                                                    <div class="info">
+                                                        <h4>project</h4>
+                                                        <p>project</p>
+                                                    </div><!-- /.info -->
+                                                </figcaption>
+                                                <img src="assets/images/art/placeholder.jpg" alt="" />
+                                            </figure>
+                                        </a>
+                                    </li><!-- /.item -->
+
+                                    <li class="item thumb design">
+                                        <a href="portfolio-post.html">
+                                            <figure>
+                                                <figcaption class="text-overlay">
+                                                    <div class="info">
+                                                        <h4>project</h4>
+                                                        <p>project</p>
+                                                    </div><!-- /.info -->
+                                                </figcaption>
+                                                <img src="assets/images/art/placeholder.jpg" alt="" />
+                                            </figure>
+                                        </a>
+                                    </li><!-- /.item -->
+
+                                </ul><!-- /.items -->
+
+                            </div><!-- /.col -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ============================================================= MAIN : END ============================================================= -->
 
 
     <footerReplace metal:use-macro="./templating/footer.xhtml/page_footer">

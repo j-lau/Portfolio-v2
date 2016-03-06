@@ -6,101 +6,165 @@
 
     <body class="scrollbar">
 
-    <navReplace metal:use-macro="./templating/nav.xhtml/nav_bar">
-    </navReplace>
+        <header id="nav" role="navigation">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <div class="container">
+
+                        <ul class="info pull-left">
+                            <li><a href="mailto:contact@jamilalau.com"><i class="icon-mail-1 contact"></i> contact@jamilalau.com</a></li>
+                            <li><i class="icon-mobile contact"></i> +1 (604) 837-1202</li>
+                        </ul><!-- /.info -->
+
+                        <ul class="social pull-right">
+                            <li><a href="https://www.linkedin.com/in/jamila-lau-968b14116"><i class="icon-s-linkedin text-overlay"></i></a></li>
+                            <li><a href="https://github.com/j-lau"><i class="icon-s-github text-overlay"></i></a></li>
+                        </ul><!-- /.social -->
+
+                        <!-- ============================================================= LOGO MOBILE ============================================================= -->
+
+                        <a class="navbar-brand logo-color" href="./index.php">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;&nbsp;.&nbsp;&nbsp;L&nbsp;A&nbsp;U</a>
+
+                        <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+
+                        <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+
+                    </div><!-- /.container -->
+                </div><!-- /.navbar-header -->
+
+                <div class="yamm">
+                    <div class="navbar-collapse collapse">
+                        <div class="container">
+
+                            <!-- ============================================================= LOGO ============================================================= -->
+
+                            <a class="navbar-brand logo-color" href="./index.php">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;&nbsp;.&nbsp;&nbsp;L&nbsp;A&nbsp;U</a>
+
+                            <!-- ============================================================= LOGO : END ============================================================= -->
 
 
-    <!-- ============================================================= MAIN ============================================================= -->
+                            <!-- ============================================================= MAIN NAVIGATION ============================================================= -->
 
-    <main>
+                            <ul class="nav navbar-nav">
 
-        <section class="container content-section text-center">
-            <div class="intro-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <h1 class="title-txt">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;.&nbsp;L&nbsp;A&nbsp;U</h1>
-                            <hr/>
-                            <p class="intro-text">
-                                <a class="info-txt" href="./portfolio.php">Programmer. </a>
-                                <a class="info-txt" href="./portfolio.php">Designer. </a>
-                                <a class="info-txt" href="./portfolio.php">Gamer. </a>
-                            </p>
-                            <a href="#home" class="btn btn-circle page-scroll">
-                                <i class="icon-down-open animated"></i>
-                            </a>
+                                <li class="">
+                                    <a href="./index.php" class="">Home</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="./portfolio.php" class="">Portfolio</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="./about.php" class="">About Me</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="./contact-page.php" class="">Contact</a>
+                                </li>
+
+                            </ul><!-- /.nav -->
+
+                            <!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+
+                        </div><!-- /.container -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.yamm -->
+            </div><!-- /.navbar -->
+        </header>
+
+
+        <!-- ============================================================= MAIN ============================================================= -->
+
+        <main class="background-img">
+
+            <section class="container content-section text-center">
+                <div class="intro-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 class="title-txt">J&nbsp;A&nbsp;M&nbsp;I&nbsp;L&nbsp;A&nbsp;.&nbsp;L&nbsp;A&nbsp;U</h1>
+                                <hr/>
+                                <p class="intro-text">
+                                    <a class="info-txt" href="./portfolio.php">Programmer. </a>
+                                    <a class="info-txt" href="./portfolio.php">Designer. </a>
+                                    <a class="info-txt" href="./about.php">Gamer. </a>
+                                </p>
+                                <a href="#home" class="btn btn-circle page-scroll">
+                                    <i class="icon-down-open animated"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
 
-        <!-- ============================================================= SECTION – HERO ============================================================= -->
+            <!-- ============================================================= SECTION – HERO ============================================================= -->
 
-        <section id="home" class="">
-            <div class="container">
-                <div class="row inner">
-                    <div class="col-sm-12 portfolio center-block text-center">
+            <section id="" class="pad-top-2 pad-bot-2">
+                <div class="container">
+                    <div id="home" class="row inner">
+                        <div class="col-sm-12 portfolio center-block text-center">
 
-                        <ul class="items col-3">
+                            <ul class="items col-3">
 
-                            <li class="item thumb interactive">
-                                <a href="portfolio-post.html">
-                                    <figure>
-                                        <figcaption class="text-overlay">
-                                            <div class="info">
-                                                <h4>PORTFOLIO</h4>
-                                                <p>Some of the work I've done</p>
-                                            </div><!-- /.info -->
-                                        </figcaption>
-                                        <img src="assets/images/art/placeholder.jpg" alt="" />
-                                    </figure>
-                                </a>
-                            </li><!-- /.item -->
+                                <li class="item thumb interactive">
+                                    <a href="./portfolio.php">
+                                        <figure>
+                                            <figcaption class="text-overlay">
+                                                <div class="info">
+                                                    <h4>PORTFOLIO</h4>
+                                                    <p>Some of the work I've done</p>
+                                                </div><!-- /.info -->
+                                            </figcaption>
+                                            <img src="assets/images/art/placeholder.jpg" alt="" />
+                                        </figure>
+                                    </a>
+                                </li><!-- /.item -->
 
-                            <li class="item thumb identity">
-                                <a href="portfolio-post.html">
-                                    <figure>
-                                        <figcaption class="text-overlay">
-                                            <div class="info">
-                                                <h4>ABOUT ME</h4>
-                                                <p>Who am I?</p>
-                                            </div><!-- /.info -->
-                                        </figcaption>
-                                        <img src="assets/images/art/placeholder.jpg" alt="" />
-                                    </figure>
-                                </a>
-                            </li><!-- /.item -->
+                                <li class="item thumb identity">
+                                    <a href="./about.php">
+                                        <figure>
+                                            <figcaption class="text-overlay">
+                                                <div class="info">
+                                                    <h4>ABOUT ME</h4>
+                                                    <p>Who am I?</p>
+                                                </div><!-- /.info -->
+                                            </figcaption>
+                                            <img src="assets/images/art/placeholder.jpg" alt="" />
+                                        </figure>
+                                    </a>
+                                </li><!-- /.item -->
 
-                            <li class="item thumb identity">
-                                <a href="portfolio-post.html">
-                                    <figure>
-                                        <figcaption class="text-overlay">
-                                            <div class="info">
-                                                <h4>CONTACT</h4>
-                                                <p>How can I be reached?</p>
-                                            </div><!-- /.info -->
-                                        </figcaption>
-                                        <img src="assets/images/art/placeholder.jpg" alt="" />
-                                    </figure>
-                                </a>
-                            </li><!-- /.item -->
+                                <li class="item thumb identity">
+                                    <a href="./contact-page.php">
+                                        <figure>
+                                            <figcaption class="text-overlay">
+                                                <div class="info">
+                                                    <h4>CONTACT</h4>
+                                                    <p>How can I be reached?</p>
+                                                </div><!-- /.info -->
+                                            </figcaption>
+                                            <img src="assets/images/art/placeholder.jpg" alt="" />
+                                        </figure>
+                                    </a>
+                                </li><!-- /.item -->
 
 
-                        </ul><!-- /.items -->
+                            </ul><!-- /.items -->
 
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
 
-        </section>
+            </section>
 
-        <!-- ============================================================= SECTION – HERO : END ============================================================= -->
+            <!-- ============================================================= SECTION – HERO : END ============================================================= -->
 
-    </main>
+        </main>
 
-    <!-- ============================================================= MAIN : END ============================================================= -->
+        <!-- ============================================================= MAIN : END ============================================================= -->
 
 
     <footerReplace metal:use-macro="./templating/footer.xhtml/page_footer">
