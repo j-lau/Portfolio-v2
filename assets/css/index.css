@@ -35,6 +35,13 @@
     font-weight: 400;
 }
 
+.about-txt {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .info-txt {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
@@ -155,7 +162,7 @@
 }
 
 .background-img{
-    /* background-image: url(../images/port_bg.gif); */
+    /* background-image: url(../images/art/black-and-white-abstract-background.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
